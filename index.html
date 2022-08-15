@@ -1,0 +1,600 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+  </head>
+
+  <body>
+    <style>
+      table {
+        margin-bottom: 20px;
+      }
+    </style>
+
+    <!-- Calculator_I -->
+
+    <!-- Calc_A -->
+
+    <table class="calculator">
+      <tr>
+        <th>Calc_A</th>
+        <td></td>
+        <td></td>
+      </tr>
+
+      <tr>
+        <th>Calc_A1</th>
+        <td>Calc_A1 Details</td>
+        <td><input type="text" id="n_A1" placeholder="Enter Value" /></td>
+      </tr>
+
+      <tr>
+        <th>Calc_A2</th>
+        <td>Calc_A2 Details</td>
+        <td><input type="text" id="n_A2" placeholder="Enter Value" /></td>
+      </tr>
+
+      <tr>
+        <th>Calc_A3</th>
+        <td>Calc_A3 Details</td>
+        <td><input type="text" id="n_A3" placeholder="Enter Value" /></td>
+      </tr>
+
+      <tr>
+        <th><b>Value_A</b></th>
+        <td></td>
+        <td><input id="resultCalc_A" /></td>
+      </tr>
+    </table>
+
+    <!-- Calc_B -->
+
+    <table class="calculator">
+      <tr>
+        <th>Calc_B</th>
+        <td></td>
+        <td></td>
+      </tr>
+
+      <tr>
+        <th>Calc_B1</th>
+        <td>Calc_B1 Details</td>
+        <td>
+          <input
+            type="text"
+            class="negative"
+            id="n_B1"
+            placeholder="Enter Value"
+          />
+        </td>
+      </tr>
+
+      <tr>
+        <th>Calc_B2</th>
+        <td>Calc_B2 Details</td>
+        <td>
+          <input
+            type="text"
+            class="negative"
+            id="n_B2"
+            placeholder="Enter Value"
+          />
+        </td>
+      </tr>
+
+      <tr>
+        <th>Calc_B3</th>
+        <td>Calc_B3 Details</td>
+        <td>
+          <input
+            type="text"
+            class="negative"
+            id="n_B3"
+            placeholder="Enter Value"
+          />
+        </td>
+      </tr>
+
+      <tr>
+        <th><b>Value_B</b></th>
+        <td></td>
+        <td><input id="resultCalc_B" /></td>
+      </tr>
+    </table>
+
+    <!-- Final Result Calc_I -->
+
+    <table class="calculator">
+      <tr>
+        <th>Final Value (Fin_I)</th>
+        <td></td>
+        <td><input type="text" id="resultFin_I" rel="Fin_I_Calc" /></td>
+      </tr>
+    </table>
+
+    <!-- Calculator_VI -->
+
+    <!-- Calc_F -->
+
+    <!-- <table class="calculator">
+      <tr>
+        <th>Calc_F</th>
+        <td></td>
+        <td></td>
+      </tr>
+
+      <tr>
+        <th>Calc_F1</th>
+        <td>Calc_F1 Details</td>
+        <td><input type="text" id="n_F1" placeholder="Enter Value" /></td>
+      </tr>
+
+      <tr>
+        <th>Calc_F2</th>
+        <td>Calc_F2 Details</td>
+        <td><input type="text" id="n_F2" placeholder="Enter Value" /></td>
+      </tr>
+
+      <tr>
+        <th>Calc_F3</th>
+        <td>Calc_F3 Details</td>
+        <td><input type="text" id="n_F3" placeholder="Enter Value" /></td>
+      </tr>
+
+      <tr>
+        <th><b>Value_F</b></th>
+        <td></td>
+        <td><input id="resultCalc_F" /></td>
+      </tr>
+    </table> -->
+
+
+ <table class="calculator">
+      <tr>
+        <th>Calc_F</th>
+        <td></td>
+        <td></td>
+      </tr>
+
+      <tr>
+        <th>Calc_F1</th>
+        <td>Calc_F1 Details</td>
+   <td><input
+      type="checkbox"
+      name="something"
+      class="checks"
+      data-price="11.94"
+      id="n_F1"
+    />
+    <label for="n_F1">17.94</label></td>
+      </tr>
+
+      <tr>
+        <th>Calc_F2</th>
+        <td>Calc_F2 Details</td>
+        <td><input
+      type="checkbox"
+      name="something"
+      class="checks"
+      data-price="17.94"
+      id="n_F2"
+    /><label for="n_F2">17.94</label></td>
+      </tr>
+
+      <tr>
+        <th>Calc_F3</th>
+        <td>Calc_F3 Details</td>
+        <td>    <input
+      type="checkbox"
+      name="something1"
+      class="checks"
+      data-price="12.94"
+      id="n_F3"
+    /><label for="n_F3">12.94</label></td>
+      </tr>
+
+      <tr>
+        <th>Calc_F4</th>
+        <td>Calc_F3 Details</td>
+        <td><input type="checkbox" id="checkAll" /><label for="checkAll"
+      >Check All</label
+    ></td>
+
+      <tr>
+        <th><b>Value_F</b></th>
+        <td></td>
+        <td><input id="resultCalc_F" /></td>
+      </tr>
+    </table>
+
+
+
+
+    <!-- Calc_G -->
+
+    <table class="calculator">
+      <tr>
+        <th>Calc_G</th>
+        <td></td>
+        <td></td>
+      </tr>
+
+      <tr>
+        <th>Calc_G1</th>
+        <td>Calc_G1 Details</td>
+        <td><input type="text" id="n_G1" placeholder="Enter Value" /></td>
+      </tr>
+
+      <tr>
+        <th>Calc_G2</th>
+        <td>Calc_G2 Details</td>
+        <td><input type="text" id="n_G2" placeholder="Enter Value" /></td>
+      </tr>
+
+      <tr>
+        <th>Calc_G3</th>
+        <td>Calc_G3 Details</td>
+        <td><input type="text" id="n_G3" placeholder="Enter Value" /></td>
+      </tr>
+
+      <tr>
+        <th><b>Value_G</b></th>
+        <td></td>
+        <td><input id="resultCalc_G" /></td>
+      </tr>
+    </table>
+
+    <!-- Final Result Calc_VI -->
+
+    <table class="calculator">
+      <tr>
+        <th>Final Value (Fin_VI)</th>
+        <td></td>
+        <td><input type="text" id="resultFin_VI" rel="Fin_VI_Calc" /></td>
+      </tr>
+    </table>
+
+    <!-- Printed Report -->
+
+    <!-- CalcFinal_I -->
+
+    <div>
+      <div>Value_A is:</div>
+      <div id="Fin_I_Calc_A"></div>
+      <div>Value_B is:</div>
+      <div id="Fin_I_Calc_B"></div>
+    </div>
+
+    <div>
+      <div>Final Value is:</div>
+      <div id="Fin_I_Calc"></div>
+      <div>Analysis of Final Value:</div>
+      <div id="Final_I"></div>
+    </div>
+
+    <!-- CalcFinal_VI -->
+
+    <div>
+      <div>Value_F is:</div>
+      <div id="Fin_VI_Calc_F"></div>
+      <div>Value_G is:</div>
+      <div id="Fin_VI_Calc_G"></div>
+    </div>
+
+    <div>
+      <div>Final Value is:</div>
+      <div id="Fin_VI_Calc"></div>
+      <div>Analysis of Final Value:</div>
+      <div id="Final_VI"></div>
+    </div>
+
+    <script>
+      //== Index ==//
+
+      function doCalculations() {
+        Calc();
+
+        // Calculator_I
+
+        resultFin_I();
+        Final_I();
+
+        // Calculator_VI
+
+        resultFin_VI();
+        Final_VI();
+      }
+
+      // remove "formatNumber" from (totalRounded) to remove the (negative no. brackets)
+
+      //== Final Equation ==//
+
+      // resultFin_I
+
+      function resultFin_I() {
+        var data = {};
+        resultFin(data);
+
+        // Final Equation
+
+        let total = data.A + data.B;
+
+        var totalRounded = total.toFixed(2);
+        $('#resultFin_I').val(formatNumber(totalRounded));
+      }
+
+      // resultFin_VI
+
+      function resultFin_VI() {
+        var data = {};
+        resultFin(data);
+
+        // Final Equation
+
+        let total = data.F + data.G;
+
+        var totalRounded = total.toFixed(2);
+        $('#resultFin_VI').val(formatNumber(totalRounded));
+      }
+
+      //== Printed Results ==//
+
+      // Final_I
+
+      function Final_I() {
+        var $analysis = $('#Final_I');
+        var $result = $('#resultFin_I');
+
+        analyze($analysis, $result);
+      }
+
+      // Final_VI
+
+      function Final_VI() {
+        var $analysis = $('#Final_VI');
+        var $result = $('#resultFin_VI');
+
+        analyze($analysis, $result);
+      }
+
+      //== General Calculator Functions ==//
+
+      // Grouped Calcuators
+
+      function Calc() {
+        var elems = $('*[id^="n_"]');
+        var groups = {};
+        for (var i = 0; i < elems.length; i++) {
+          var groupId = /n_([a-zA-Z]+)\d*/.exec(elems[i].id)[1];
+          if (!groups[groupId]) groups[groupId] = [];
+          groups[groupId].push($(elems[i]));
+        }
+        for (var groupId in groups) {
+          var data = {};
+          for (var i = 0; i < groups[groupId].length; i++) {
+            var elem = $(groups[groupId][i]);
+            var id = elem.attr('id');
+            var val = parseFloat(getNumericValue(elem.val()));
+            data[id] = val;
+          }
+          anotherFn(data);
+          var total = Object.values(data).reduce((a, b) => a + b, 0);
+          var totalRounded = total.toFixed(2);
+
+          $('#resultCalc_' + groupId).val(formatNumber(totalRounded));
+        }
+      }
+
+      // Analysis
+
+      function analyze($analysis, $result) {
+        // Display Value
+
+        var $panel = $result.attr('rel');
+        var displayValue = $result.val();
+        $('#' + $panel).text(displayValue);
+
+        var value = parseFloat(
+          $result.val().trim().replace('(', '-').replace(')', '')
+        );
+
+        // Results
+
+        if (value >= 100) {
+          $analysis.text('more than 100');
+        }
+
+        if (value >= 20 && value <= 99) {
+          $analysis.text('between 20-99');
+        }
+
+        if (value >= 10 && value <= 20) {
+          $analysis.text('between 10-20');
+        }
+
+        if (value >= 1 && value <= 10) {
+          $analysis.text('between 1-10');
+        }
+
+        if (value <= 0) {
+          $analysis.text('0 or negative');
+        }
+      }
+
+      // Get Individual Values
+
+      function anotherFn(data) {
+        for (const itemId in data) {
+          if (isNaN(data[itemId])) {
+            data[itemId] = 0;
+          }
+        }
+      }
+
+      // Get Final Results
+
+      function resultFin(data) {
+        var elems = $('.calculator').find('[id^="resultCalc_"]');
+        var finCalcsArr = $('*[id^="Fin_"]').filter(function (i, x) {
+          return x.id && /^Fin_[a-zA-Z\d]+_Calc_(.*)$/.test(x.id);
+        });
+        var finCalcsObj = {};
+        for (var i = 0; i < finCalcsArr.length; i++) {
+          var elem = $(finCalcsArr[i]);
+          var letter = elem.attr('id').split('Fin_')[1].split('_Calc_')[1];
+          finCalcsObj[letter] = elem;
+        }
+        for (var i = 0; i < elems.length; i++) {
+          var elem = $(elems[i]);
+          var letter = elem.attr('id').split('resultCalc_')[1];
+          var Fin_Calc_ = elem.val();
+          finCalcsObj[letter].text(Fin_Calc_);
+          if (Fin_Calc_.length > 0 && Fin_Calc_.charAt(0) == '(') {
+            Fin_Calc_ = '-' + Fin_Calc_.substring(1, Fin_Calc_.length - 1);
+          }
+          Fin_Calc_ = parseFloat(Fin_Calc_);
+          data[letter] = Fin_Calc_;
+        }
+      }
+
+      // Negative Values
+
+      document.querySelectorAll('*.negative').forEach((element, index) => {
+        element.addEventListener('keyup', negateNumber);
+        element.addEventListener('blur', formatNumber);
+      });
+
+      function negateNumber(e) {
+        let value = e.target.value;
+        if (!value) {
+          return;
+        }
+        if (e.key === 'Backspace') {
+          return;
+        }
+        value = value.replace(/\(|\)/g, '').trim();
+        const numericValue = parseInt(value);
+        if (isNaN(numericValue)) {
+          return;
+        }
+        e.target.value = '(' + Math.abs(numericValue) + ')';
+      }
+
+      function formatNumber(e) {
+        let numberText = e.target.value;
+        if (!numberText) {
+          return numberText;
+        }
+        if (typeof numberText === 'string') {
+          numberText = numberText.trim();
+          if (numberText.length == 0) {
+            return numberText;
+          }
+          numberText = numberText.replace(/\(|\)/g, '');
+        }
+        numberText = Math.abs(parseInt(numberText));
+        e.target.value = `(${numberText})`;
+      }
+
+      // Do Calculations
+
+      function getNumericValue(numberText) {
+        if (!numberText) {
+          return numberText;
+        }
+        return numberText.replace('(', '-').replace(')', '');
+      }
+
+      function formatNumber(numberText) {
+        if (!numberText) {
+          return numberText;
+        }
+        if (typeof numberText === 'string') {
+          numberText = numberText.trim();
+          if (numberText.length == 0) {
+            return numberText;
+          }
+        }
+        return numberText < 0 ? `(${-numberText})` : numberText;
+      }
+
+        function calchecked() {
+          var isEventAdded = false;
+          var tots = 0;
+          $(".checks").each(function () {
+            var price = $(this).attr("data-price");
+            if (!this.checked) {
+              $("#checkAll").prop("checked", false);
+            } else {
+              tots += parseFloat(price);
+            }
+            if (!isEventAdded) {
+              $(this).click(calchecked);
+            }
+          });
+          $("#resultCalc_F").val(tots.toFixed(2));
+          isEventAdded = true;
+          resultFin_VI();
+        Final_VI();
+        }
+
+      document.querySelectorAll("[id^='n']").forEach((element, i) => {
+        element.addEventListener('click', () => {
+          console.log('hey');
+          doCalculations();
+          storeIntoSession();
+        });
+        element.addEventListener('blur', () => {
+          element.value = formatNumber(element.value);
+        });
+        $("#checkAll").click(function () {
+          $("input:checkbox").not(this).prop("checked", this.checked);
+          calchecked();
+        });
+        element.addEventListener('focus', () => {
+          if(element.type === 'checkbox'){
+        calchecked();
+
+        // Check All
+          }else{
+          element.value = getNumericValue(element.value);
+          }
+        });
+      });
+
+      //sessionStorage
+
+      function storeIntoSession() {
+        if (!sessionStorage) {
+          return;
+        }
+        var sessionStorageIDs = [].slice
+          .call(document.querySelectorAll('*[id^="n_"]'))
+          .map((x) => x.id);
+        for (id of sessionStorageIDs) {
+          sessionStorage.setItem(
+            id,
+            getNumericValue(document.querySelector(`#${id}`).value)
+          );
+        }
+      }
+      if (sessionStorage) {
+        setDataFromSession();
+      }
+
+      function setDataFromSession() {
+        var sessionStorageIDs = [].slice
+          .call(document.querySelectorAll('*[id^="n_"]'))
+          .map((x) => x.id);
+        for (id of sessionStorageIDs) {
+          document.querySelector(`#${id}`).value = formatNumber(
+            sessionStorage.getItem(id)
+          );
+        }
+        doCalculations();
+      }
+    </script>
+  </body>
+</html>
